@@ -59,7 +59,7 @@
     background: inherit;
   }
   .wrapper span:first-child{
-    filter: blur(7px);
+    filter: blur(100px);
   }
   .wrapper span:last-child{
     filter: blur(20px);
