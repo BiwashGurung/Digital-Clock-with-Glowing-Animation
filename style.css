@@ -18,18 +18,14 @@
     cursor: default;
     animation: animate 1.5s linear infinite;
   }
-  .wrapper .display{
+  .wrapper .display,
+  .wrapper span{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 999;
-    height: 85px;
-    width: 345px;
-    background: #1b1b1b;
-    border-radius: 6px;
-    text-align: center;
   }
+  
   .display #time{
     line-height: 85px;
     color: transparent;
