@@ -18,4 +18,5 @@ setInterval(()=>{
       if(hours < 10){
         hours = "0" + hours;
       }
+      time.textContent = hours + ":" + minutes + ":" + seconds + " "+ day_night;
   });
