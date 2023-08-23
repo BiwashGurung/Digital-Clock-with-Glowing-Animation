@@ -9,4 +9,6 @@ setInterval(()=>{
         day_night = "PM";
         hours = hours - 12;
       }
+      if(seconds < 10){
+        seconds = "0" + seconds;
   });
