@@ -42,3 +42,8 @@
 
     animation: animate 1.5s linear infinite;
   }
+  @keyframes animate {
+    to{
+      filter: hue-rotate(-360deg);
+    }
+  }
