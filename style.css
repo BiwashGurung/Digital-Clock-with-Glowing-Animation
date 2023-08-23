@@ -58,4 +58,7 @@
     border-radius: 10px;
     background: inherit;
   }
+  .wrapper span:first-child{
+    filter: blur(7px);
+  }
  
