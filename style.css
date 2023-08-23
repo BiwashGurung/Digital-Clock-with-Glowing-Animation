@@ -7,4 +7,5 @@
     display: grid;
     height: 100%;
     place-items: center;
+    background: #111111;
   }
