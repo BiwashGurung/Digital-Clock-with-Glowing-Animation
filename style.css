@@ -30,3 +30,15 @@
     border-radius: 6px;
     text-align: center;
   }
+  .display #time{
+    line-height: 85px;
+    color: transparent;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background: linear-gradient(#483D8B ,#C0C0C0 , #2F5A78);
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    animation: animate 1.5s linear infinite;
+  }
